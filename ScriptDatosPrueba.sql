@@ -1,0 +1,22 @@
+-- Insertar 20 productos de ejemplo en la tabla productos
+INSERT INTO productos (nombre, imagen, descripcion, valoracion, likes, vistas, fecha) VALUES
+('Laptop Dell XPS 13', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-aPUYLxtMrvQLtqxMBGZjEbBZNqHSgqwNoPys5rd5E_KT2NN_RHiiYITmDeKKs_Lktrm9ghbgQSS_Bc6L2Oq2AE5oNVhZMF5N6TXkZ3_dPTczTkmWlOrah59CZ4wHSPZVjfTMbEw&usqp=CAc', 'Laptop ultradelgada con pantalla 4K y procesador Intel Core i7.', 9, 150, 200, CURDATE()),
+('MacBook Pro 16', 'https://via.placeholder.com/200x150?text=MacBook+Pro+16', 'Laptop potente con procesador M1 Pro, ideal para creadores de contenido.', 10, 200, 250, CURDATE()),
+('Teclado Mecánico Logitech G Pro', 'https://via.placeholder.com/200x150?text=Teclado+Logitech+G+Pro', 'Teclado mecánico para gaming, con retroiluminación RGB y switches de alta velocidad.', 8, 100, 120, CURDATE()),
+('Monitor ASUS ROG Swift', 'https://via.placeholder.com/200x150?text=Monitor+ASUS+ROG+Swift', 'Monitor gaming de 27 pulgadas con resolución 1440p y frecuencia de actualización de 165Hz.', 9, 250, 300, CURDATE()),
+('Auriculares Sony WH-1000XM4', 'https://via.placeholder.com/200x150?text=Auriculares+Sony+WH-1000XM4', 'Auriculares inalámbricos con cancelación de ruido y 30 horas de batería.', 9, 300, 350, CURDATE()),
+('Ratón Logitech G502', 'https://via.placeholder.com/200x150?text=Raton+Logitech+G502', 'Ratón gaming con sensores de alta precisión y botones personalizables.', 8, 150, 200, CURDATE()),
+('SSD Samsung 970 EVO Plus', 'https://via.placeholder.com/200x150?text=SSD+Samsung+970+EVO+Plus', 'Disco SSD NVMe con velocidad de lectura de hasta 3500MB/s.', 9, 180, 230, CURDATE()),
+('Procesador Intel Core i9-11900K', 'https://via.placeholder.com/200x150?text=Procesador+Intel+Core+i9-11900K', 'Procesador de 8 núcleos y 16 hilos para un rendimiento extremo en gaming y tareas pesadas.', 10, 220, 280, CURDATE()),
+('Placa Base ASUS ROG Strix Z590', 'https://via.placeholder.com/200x150?text=Placa+Base+ASUS+ROG+Strix+Z590', 'Placa base con chipset Z590 para procesadores Intel de 10ª y 11ª generación.', 8, 140, 190, CURDATE()),
+('Tarjeta Gráfica NVIDIA RTX 3080', 'https://via.placeholder.com/200x150?text=Tarjeta+Grafica+NVIDIA+RTX+3080', 'Tarjeta gráfica de alto rendimiento para gaming en 4K y renderización avanzada.', 10, 350, 400, CURDATE()),
+('Sistema de Sonido Logitech Z906', 'https://via.placeholder.com/200x150?text=Sistema+de+Sonido+Logitech+Z906', 'Sistema de sonido envolvente 5.1 con subwoofer para cine en casa.', 8, 90, 130, CURDATE()),
+('Cámara Web Logitech C920', 'https://via.placeholder.com/200x150?text=Camara+Web+Logitech+C920', 'Cámara web HD para videoconferencias con micrófono integrado y enfoque automático.', 7, 75, 100, CURDATE()),
+('Tablet Samsung Galaxy Tab S7', 'https://via.placeholder.com/200x150?text=Tablet+Samsung+Galaxy+Tab+S7', 'Tablet con pantalla AMOLED de 11 pulgadas, ideal para trabajo y entretenimiento.', 8, 130, 170, CURDATE()),
+('Router Wi-Fi ASUS RT-AX88U', 'https://via.placeholder.com/200x150?text=Router+ASUS+RT-AX88U', 'Router Wi-Fi 6 con soporte para múltiples dispositivos y velocidad ultra-rápida.', 9, 160, 210, CURDATE()),
+('Impresora HP LaserJet Pro', 'https://via.placeholder.com/200x150?text=Impresora+HP+LaserJet+Pro', 'Impresora láser rápida y económica para oficina, con conectividad Wi-Fi.', 8, 110, 150, CURDATE()),
+('Disco Duro Externo Seagate 2TB', 'https://via.placeholder.com/200x150?text=Disco+Duro+Externo+Seagate+2TB', 'Disco duro externo con capacidad de 2TB y conectividad USB 3.0.', 8, 100, 120, CURDATE()),
+('Smartphone Samsung Galaxy S21', 'https://via.placeholder.com/200x150?text=Smartphone+Samsung+Galaxy+S21', 'Smartphone con pantalla AMOLED de 6.2 pulgadas, procesador Exynos 2100 y cámaras de alta calidad.', 9, 220, 270, CURDATE()),
+('Tableta Gráfica Wacom Intuos Pro', 'https://via.placeholder.com/200x150?text=Tableta+Grafica+Wacom+Intuos+Pro', 'Tableta gráfica profesional para ilustradores y diseñadores con tecnología de lápiz avanzado.', 9, 200, 250, CURDATE()),
+('Hub USB-C Anker', 'https://via.placeholder.com/200x150?text=Hub+USB-C+Anker', 'Hub USB-C con puertos HDMI, USB 3.0, y lector de tarjetas para laptops y MacBooks.', 7, 85, 110, CURDATE()),
+('Teclado Razer Huntsman Elite', 'https://via.placeholder.com/200x150?text=Teclado+Razer+Huntsman+Elite', 'Teclado mecánico con switches ópticos, retroiluminación RGB y reposamuñecas ergonómico.', 9, 180, 220, CURDATE());
