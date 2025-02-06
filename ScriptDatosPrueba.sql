@@ -1,11 +1,11 @@
 -- Insertar 20 productos de ejemplo en la tabla productos
 INSERT INTO productos (nombre, imagen, descripcion, valoracion, likes, vistas, fecha) VALUES
 ('Laptop Dell XPS 13', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-aPUYLxtMrvQLtqxMBGZjEbBZNqHSgqwNoPys5rd5E_KT2NN_RHiiYITmDeKKs_Lktrm9ghbgQSS_Bc6L2Oq2AE5oNVhZMF5N6TXkZ3_dPTczTkmWlOrah59CZ4wHSPZVjfTMbEw&usqp=CAc', 'Laptop ultradelgada con pantalla 4K y procesador Intel Core i7.', 9, 150, 200, CURDATE()),
-('MacBook Pro 16', 'https://via.placeholder.com/200x150?text=MacBook+Pro+16', 'Laptop potente con procesador M1 Pro, ideal para creadores de contenido.', 10, 200, 250, CURDATE()),
-('Teclado Mecánico Logitech G Pro', 'https://via.placeholder.com/200x150?text=Teclado+Logitech+G+Pro', 'Teclado mecánico para gaming, con retroiluminación RGB y switches de alta velocidad.', 8, 100, 120, CURDATE()),
-('Monitor ASUS ROG Swift', 'https://via.placeholder.com/200x150?text=Monitor+ASUS+ROG+Swift', 'Monitor gaming de 27 pulgadas con resolución 1440p y frecuencia de actualización de 165Hz.', 9, 250, 300, CURDATE()),
-('Auriculares Sony WH-1000XM4', 'https://via.placeholder.com/200x150?text=Auriculares+Sony+WH-1000XM4', 'Auriculares inalámbricos con cancelación de ruido y 30 horas de batería.', 9, 300, 350, CURDATE()),
-('Ratón Logitech G502', 'https://via.placeholder.com/200x150?text=Raton+Logitech+G502', 'Ratón gaming con sensores de alta precisión y botones personalizables.', 8, 150, 200, CURDATE()),
+('MacBook Pro 16', 'https://thumb.pccomponentes.com/w-530-530/articles/1086/10861596/1629-apple-macbook-air-apple-m3-8-nucleos-16gb-256gb-ssd-gpu-8-nucleos-136-medianoche.jpg', 'Laptop potente con procesador M1 Pro, ideal para creadores de contenido.', 10, 200, 250, CURDATE()),
+('Teclado Mecánico Logitech G Pro', 'https://thumb.pccomponentes.com/w-530-530/articles/1086/10866715/1147-dell-inspiron-3530-intel-core-i7-1355u-16gb-512gb-ssd-156.jpg', 'Teclado mecánico para gaming, con retroiluminación RGB y switches de alta velocidad.', 8, 100, 120, CURDATE()),
+('Monitor ASUS ROG Swift', 'https://thumb.pccomponentes.com/w-530-530/articles/1072/10725629/1857-alurin-corevision-27-fhd-27-led-ips-fullhd-100hz-comprar.jpg', 'Monitor gaming de 27 pulgadas con resolución 1440p y frecuencia de actualización de 165Hz.', 9, 250, 300, CURDATE()),
+('Auriculares Sony WH-1000XM4', 'https://thumb.pccomponentes.com/w-530-530/articles/16/166071/eos01main.jpg', 'Auriculares inalámbricos con cancelación de ruido y 30 horas de batería.', 9, 300, 350, CURDATE()),
+('Ratón Logitech G502', 'https://via.placeholder.com/200x150?text=SSD+Samsung+970+EVO+Plus', 'Ratón gaming con sensores de alta precisión y botones personalizables.', 8, 150, 200, CURDATE()),
 ('SSD Samsung 970 EVO Plus', 'https://via.placeholder.com/200x150?text=SSD+Samsung+970+EVO+Plus', 'Disco SSD NVMe con velocidad de lectura de hasta 3500MB/s.', 9, 180, 230, CURDATE()),
 ('Procesador Intel Core i9-11900K', 'https://via.placeholder.com/200x150?text=Procesador+Intel+Core+i9-11900K', 'Procesador de 8 núcleos y 16 hilos para un rendimiento extremo en gaming y tareas pesadas.', 10, 220, 280, CURDATE()),
 ('Placa Base ASUS ROG Strix Z590', 'https://via.placeholder.com/200x150?text=Placa+Base+ASUS+ROG+Strix+Z590', 'Placa base con chipset Z590 para procesadores Intel de 10ª y 11ª generación.', 8, 140, 190, CURDATE()),

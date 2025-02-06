@@ -1,0 +1,39 @@
+esquema de BBDD
+
+        +--------------------------+
+        |       productos          |
+        +--------------------------+
+        | id (PK)                  |
+        | nombre                   |
+        | imagen                   |
+        | descripcion              |
+        | valoracion               |
+        | likes                    |
+        | vistas                   |
+        | fecha                    |
+        +--------------------------+
+                | 1
+                |
+                | Muchos
+                |
+    +--------------------------+
+    |       comentarios         |
+    +--------------------------+
+    | id (PK)                  |
+    | producto_id (FK)         |
+    | comentario               |
+    | usuario                  |
+    | fecha                    |
+    +--------------------------+
+                |
+                | 1
+                |
+                | Muchos
+                |
+    +--------------------------+
+    |         vistas            |
+    +--------------------------+
+    | id (PK)                  |
+    | producto_id (FK)         |
+    | fecha                    |
+    +--------------------------+

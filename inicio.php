@@ -15,8 +15,8 @@ include 'conexion.php';
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Categorías</a></li>
+                <li><a href="inicio.php">Inicio</a></li>
+                    <li><a href="categorias.php">Categorias</a></li> <!-- Enlace al archivo categorias.php -->
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Contactar</a></li>
                 </ul>
