@@ -11,7 +11,7 @@ include 'conexion.php';
     <header>
         <div class="container">
             <div class="logo">
-                <a href="#">Mi Comparador</a>
+                <a href="inicio.php">Mi Comparador</a>
             </div>
             <nav>
                 <ul>
@@ -67,6 +67,7 @@ include 'conexion.php';
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
 </section>
 
     <!-- Sección de productos TOP -->
