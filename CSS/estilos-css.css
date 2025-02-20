@@ -4,6 +4,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Aseguramos que el contenedor del carrusel esté bien posicionado */
+#carouselFeatured {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Ajusta el tamaño máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel */
+}
+
+/* Estilos para las imágenes del carrusel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Asegura que la imagen ocupe el espacio del contenedor sin deformarse */
+}
+
+/* Estilo para las flechas de navegación */
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Centra las flechas verticalmente */
+    z-index: 5; /* Asegura que las flechas estén por encima de las imágenes */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mejorar la visibilidad de las flechas */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: white; /* Flechas blancas */
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.carousel-control-prev {
+    left: 10px; /* Ajuste para la flecha anterior */
+}
+
+.carousel-control-next {
+    right: 10px; /* Ajuste para la flecha siguiente */
+}
 
 /* Body y fuentes */
 body {
@@ -62,7 +106,7 @@ header nav ul li a {
     border: 1px solid #ddd;
     font-size: 16px;
 }
-
+/*
 .search button {
     padding: 10px 20px;
     font-size: 16px;
@@ -70,7 +114,7 @@ header nav ul li a {
     color: #fff;
     border: none;
     cursor: pointer;
-}
+}*/
 
 /* Estilo de productos */
 .products {
@@ -113,7 +157,7 @@ header nav ul li a {
     color: #333;
     margin-bottom: 20px;
 }
-
+/*
 .product button {
     padding: 10px 20px;
     background-color: #1e212d;
@@ -121,7 +165,7 @@ header nav ul li a {
     border: none;
     cursor: pointer;
 }
-
+*/
 /* Pie de página */
 footer {
     background-color: #1e212d;
