@@ -142,7 +142,7 @@ $comentarios_result = mysqli_query($conexion, $query_comentarios);
                         <a class="nav-link" href="contacto.php">Contacto</a>
                     </li>
 
-                    <!-- Menú de usuario, movido al lado derecho -->
+                    <!-- Menú de usuario -->
                     <li class="nav-item dropdown ms-auto">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="bi bi-person-circle"></i> Usuario
